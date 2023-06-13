@@ -5,6 +5,7 @@ This module contains utility functions for molecule analysis.
 import numpy as np
 import matplotlib.pyplot as plt
 from molecool.measure import calculate_distance
+from molecool.atom_data import atomic_weights
 
 
 def build_bond_list(coordinates, max_bond=1.5, min_bond=0):
@@ -47,3 +48,11 @@ def bond_histogram(bond_list, save_location=None, dpi=300, graph_min=0, graph_ma
     
     return ax
        
+
+def compute_molecular_mass(symbols):
+    # This function computes the molecular mass given its element symbols
+    mass = 0.0
+    for atom in symbols:
+        mass += atomic_weights[atom]
+
+    return mass
