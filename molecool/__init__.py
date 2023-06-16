@@ -10,9 +10,9 @@ from molecool.measure import calculate_distance
 from molecool.atom_data import atom_colors, atomic_weights
 from molecool.visualization import draw_molecule
 
-from molecool.molecules import bond_histogram, build_bond_list
+from molecool.molecules import bond_histogram, build_bond_list, compute_molecular_mass
 
-from molecool.io import pdb
+from molecool.io import open_pdb
 
 
 from ._version import __version__
