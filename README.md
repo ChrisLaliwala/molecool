@@ -7,6 +7,7 @@ molecool
 
 A Python package to visualize molecules given their Cartesian coordinates. Future work will include other formats.
 
+
 ### Copyright
 
 Copyright (c) 2023, Chris Laliwala
