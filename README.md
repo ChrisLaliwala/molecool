@@ -17,3 +17,11 @@ Copyright (c) 2023, Chris Laliwala
  
 Project based on the 
 [Computational Molecular Science Python Cookiecutter](https://github.com/molssi/cookiecutter-cms) version 1.1.
+
+
+
+
+To submit your feature to be incorporated to the main branch,
+you should submit a 'Pull Request'.
+The repository maintainers will review your pull request before accepting your changes.
+
